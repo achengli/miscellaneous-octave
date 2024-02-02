@@ -78,3 +78,12 @@ function [X, freq, Xcomplex] = spd(x,t,freq_window)
     freq = linspace(-N/2,N/2, N)*fs/N;
   endif
 endfunction
+%!demo
+%! t = linspace(0,4,1e4);
+%! x = cos(2*pi*130*t) + cos(2*pi*78*t);
+%! Fwin = 1024;
+%! [X, f, Xc] = spd(x, t, Fwin);
+%! figure;
+%! plot(f, abs(X), 'linewidth', 3);
+%! title('Demonstration of SPD function')
+%! xlabel('frequency axis'), ylabel('|X(f)|')

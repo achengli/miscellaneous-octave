@@ -7,6 +7,7 @@ inspiration for more strong-mantained projects.
 
 - Acoustics
 - Signal processing
+- Optimization methods
 
 ## How to get involved?
 

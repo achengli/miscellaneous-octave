@@ -1,21 +1,18 @@
-# Set of GNU Octave projects
+# Miscellaneous Octave
+---
+Some of my scripts I did in octave and I don't want to lose. Here you can find scripts and
+functions made with **GNU Octave**.
 
-This is a collection of GNU Octave projects that can be used individualy or as an 
-inspiration for more strong-mantained projects.
+## Contributions
+Due it is a personal project, public contributions are not allowed generally, but if you want,
+contact me by issues tab and ask me what you want about this repository or even for code usage.
 
-## Contents
+## License and usage
+Every file and content in this repository is under MIT terms license and by copyright.
 
-- Acoustics
-- Signal processing
-- Optimization methods
+**Yassin Achengli - Copyright (c) 2025 BY**
 
-## How to get involved?
+As you see, the copyright stands only in authority. If you're going to distribute it, you must
+put my autorship. However, if you changed the code in more that 50% of original code, you can
+distribute it without my autorship.
 
-If you want improve this repository, you can do it with new ideas, giving feedback, forking 
-individual projects into a more detailed and strong-mantained one...
-
-## Samples
-
-The following picture is the graphic representation of **randtones** function 
-which is implemented on [randtones.m](./inst/randtones.m) file
-![wave](./assets/wave.jpg)

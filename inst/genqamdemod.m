@@ -44,22 +44,9 @@ function x = genqamdemod (y, c)
     print_usage ();
   endif
 
-  # if it is not set as column vector, will be fit as a column vector
-  y = reshape (y, numel (y), 1); 
-  c = reshape (c, 1, numel (c));
-  M = length (y);
-  
-  Ym = y * ones (1, length(c));
-  C = ones (M, 1) * c;
-  
-  evm = abs (Ym - C);
-  x = zeros (size (y));
-  
-  for r = 1:size (evm, 1)
-    f = find (evm(r, :) == min (evm(r, :))) - 1;
-    x(r) = f(1);
-  endfor
-  x = x';
+  evm = abs (c(:) - y(:).');
+  [~, x] = min (evm);
+  x -= 1;
 endfunction
 %!test
 %! assert (genqamdemod ([3+2i .23-.34i], [-1+.5i 1-.5i]), [1 1])

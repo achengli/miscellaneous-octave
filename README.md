@@ -8,7 +8,7 @@ Due it is a personal project, public contributions are not allowed generally, bu
 contact me by issues tab and ask me what you want about this repository or even for code usage.
 
 ## License and usage
-Every file and content in this repository is under MIT terms license and by copyright.
+Every file and content in this repository is under GPLv3 terms license and by copyright.
 
 **Yassin Achengli - Copyright (c) 2025 BY**
 
